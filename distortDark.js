@@ -8,14 +8,14 @@ function setup() {
 }
 
 function draw() {
-   background(255)
-  fill (0)
+   background(0)
+  fill (255)
 
   //fill in the vertical line with increasing
   //spaces between one pixel-wide dots
   for(y=30;y<height-30;y=y+slider.value()){
     noStroke()
-  fill(0)
+  fill(255)
 ellipse(200,y,2,3)
 }
 //fixation dots
